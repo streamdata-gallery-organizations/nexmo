@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Nexmo
 x-complete: 1
@@ -75,4 +74,3 @@ paths:
       tags:
       - Messaging
       - SMS
----

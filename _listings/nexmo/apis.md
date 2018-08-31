@@ -7,38 +7,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/626-nexmo.
 x-kinRank: "7"
 x-alexaRank: "33205"
 tags: Nexmo
-created: "2018-06-26"
-modified: "2018-06-26"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/nexmo/master/_listings/nexmo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Nexmo SMS API Send Message
-  x-api-slug: nexmo-sms-api
+- name: Nexmo SMS API - Send Message
+  x-api-slug: smsformat-get
   description: Nexmo makes it simple to send and receive a high volume of SMS anywhere
     in the world within minutes.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/626-nexmo.jpg
   humanURL: http://nexmo.com/
-  baseURL: http://rest.nexmo.com///sms/{format}
-  tags: Messaging,SMS
+  baseURL: http://rest.nexmo.com//
+  tags: Bulk, Global, SMPP, SMS, API United Kingdom, Technology, SaaS, Enterprise,
+    Telecommunications, API Provider, SMS, Telecommunications, Messages, Profiles,
+    Service API, Relative Data, Webhook Implementations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/nexmo/master/_listings/nexmo/smsformat-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/nexmo/master/_listings/nexmo/smsformat-get-openapi.md
-- name: Nexmo SMS API
-  x-api-slug: nexmo-sms-api
-  description: Nexmo lets you send and receive high volume of SMS at wholesale rates
-    using web technologies that you already know.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/626-nexmo.jpg
-  humanURL: http://nexmo.com/
-  baseURL: http://rest.nexmo.com//
-  tags: Nexmo
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/nexmo/master/_listings/nexmo/openapi.md
 x-common:
 - type: x--net-sdk
   url: http://dotnet-snippets.com/dns/send-sms-SID658.aspx
+- type: x-api-gallery
+  url: http://newswhip.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://nexmo.stack.network
 - type: x-base
   url: https://rest.nexmo.com/
 - type: x-blog
@@ -89,6 +84,8 @@ x-common:
   url: http://www.nexmo.com/terms-use/
 - type: x-twitter
   url: https://twitter.com/nexmo
+- type: x-webhook
+  url: https://developer.nexmo.com/concepts/guides/webhooks
 - type: x-webinar
   url: http://www.nexmo.com/resources/webinars/
 - type: x-website
